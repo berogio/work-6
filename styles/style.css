@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: blue;
+    height: 308px;
+    color: white;
+    font-family: Helveticaregular;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 240px;
+    position: absolute;
+    width: 100%;
+    z-index: 0.9;
+}
+
+header .circles {
+    display: flex;
+}
+
+header .circles .circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.grid {
+    margin-top: 110px;
+    margin-left: 240px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.grid .proekts {
+    display: flex;
+    z-index: 1;
+    height: 600px;
+    align-items: center;
+}
+
+.grid .proekts .item-2 {
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid .proekts .item-3 {
+    margin-right: 10px;
+}
